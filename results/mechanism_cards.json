@@ -1,0 +1,432 @@
+[
+ {
+  "gene": "HRH1",
+  "protein": "Histamine H1 receptor",
+  "uniprot": "P35367",
+  "ensembl": "ENSG00000196639",
+  "function": "G protein-coupled receptor for histamine, a biogenic amine that functions as an immune modulator and a neurotransmitter (PubMed:33828102, PubMed:8280179). Through the H1 receptor, histamine mediates the contraction of smooth muscles and increases capillary permeability due to contraction of terminal venules. Also mediates neurotransmission in the central nervous system and thereby regulates circadian rhythms, emotional and locomotor activities as well as cognitive functions (By similarity)",
+  "hpa": {
+   "RNA tissue specificity": "Low tissue specificity",
+   "RNA tissue distribution": "Detected in many",
+   "RNA tissue specific nTPM": null,
+   "RNA brain regional specificity": "Low region specificity",
+   "Subcellular location": [
+    "Plasma membrane",
+    "Cytosol"
+   ]
+  },
+  "alphafold": "https://alphafold.ebi.ac.uk/entry/P35367",
+  "event": "SOMNOLENCE",
+  "stats": {
+   "active_with_signal": "22",
+   "n_active": "22",
+   "inactive_with_signal": "80",
+   "n_inactive": "142",
+   "odds_ratio": Infinity,
+   "p": 1.1015046624861121e-05,
+   "q": 0.002779613787280765
+  },
+  "drugs": [
+   {
+    "drug": "olanzapine",
+    "pchembl": 10.06,
+    "a": 246,
+    "ror": 5.564159269046446,
+    "ror_lo": 4.890091421810681,
+    "ic025": 2.174980891105229
+   },
+   {
+    "drug": "promethazine",
+    "pchembl": 9.48,
+    "a": 21,
+    "ror": 4.337078080506718,
+    "ror_lo": 2.803591604307013,
+    "ic025": 1.2371931555450568
+   },
+   {
+    "drug": "clozapine",
+    "pchembl": 9.4,
+    "a": 164,
+    "ror": 2.653402559710124,
+    "ror_lo": 2.270647692133542,
+    "ic025": 1.1109209127743012
+   },
+   {
+    "drug": "amitriptyline",
+    "pchembl": 9.26,
+    "a": 64,
+    "ror": 3.7690294774109137,
+    "ror_lo": 2.936258132363915,
+    "ic025": 1.4298844409362284
+   },
+   {
+    "drug": "mirtazapine",
+    "pchembl": 8.8,
+    "a": 144,
+    "ror": 5.920713446737551,
+    "ror_lo": 5.0028582772588654,
+    "ic025": 2.193127717574122
+   },
+   {
+    "drug": "chlorpromazine",
+    "pchembl": 8.71,
+    "a": 14,
+    "ror": 5.149042924865754,
+    "ror_lo": 3.012319181673109,
+    "ic025": 1.2231212474440254
+   },
+   {
+    "drug": "hydroxyzine",
+    "pchembl": 8.7,
+    "a": 124,
+    "ror": 9.444466112408179,
+    "ror_lo": 7.856648576971894,
+    "ic025": 2.782548502136089
+   },
+   {
+    "drug": "risperidone",
+    "pchembl": 8.59,
+    "a": 212,
+    "ror": 5.325767906253436,
+    "ror_lo": 4.635536143907212,
+    "ic025": 2.10012484804251
+   },
+   {
+    "drug": "pramipexole",
+    "pchembl": 8.35,
+    "a": 38,
+    "ror": 6.443865651864895,
+    "ror_lo": 4.644397339071151,
+    "ic025": 1.982949558259932
+   },
+   {
+    "drug": "quetiapine",
+    "pchembl": 8.34,
+    "a": 510,
+    "ror": 8.160669329141406,
+    "ror_lo": 7.447519619722912,
+    "ic025": 2.739275202147491
+   },
+   {
+    "drug": "ziprasidone",
+    "pchembl": 8.28,
+    "a": 7,
+    "ror": 2.9215274653871144,
+    "ror_lo": 1.3790893414207448,
+    "ic025": 0.049733166142951396
+   },
+   {
+    "drug": "nortriptyline",
+    "pchembl": 8.23,
+    "a": 27,
+    "ror": 4.077370406537166,
+    "ror_lo": 2.776037690806628,
+    "ic025": 1.2676098001344147
+   },
+   {
+    "drug": "cetirizine",
+    "pchembl": 8.23,
+    "a": 338,
+    "ror": 6.14617386589623,
+    "ror_lo": 5.501658658477672,
+    "ic025": 2.336513381859376
+   },
+   {
+    "drug": "diphenhydramine",
+    "pchembl": 7.83,
+    "a": 192,
+    "ror": 7.294290838511556,
+    "ror_lo": 6.297428006666791,
+    "ic025": 2.5111206175839333
+   },
+   {
+    "drug": "loratadine",
+    "pchembl": 7.7,
+    "a": 49,
+    "ror": 3.4571456795933373,
+    "ror_lo": 2.6003017362354766,
+    "ic025": 1.245725146681376
+   },
+   {
+    "drug": "cyclobenzaprine",
+    "pchembl": 7.68,
+    "a": 39,
+    "ror": 3.8486157792003723,
+    "ror_lo": 2.795564048758943,
+    "ic025": 1.3227460794322896
+   },
+   {
+    "drug": "aripiprazole",
+    "pchembl": 7.6,
+    "a": 162,
+    "ror": 3.850072572086427,
+    "ror_lo": 3.2889320257796366,
+    "ic025": 1.624487276418849
+   },
+   {
+    "drug": "paliperidone",
+    "pchembl": 7.47,
+    "a": 100,
+    "ror": 4.049139783706554,
+    "ror_lo": 3.314368559175465,
+    "ic025": 1.6192052581759193
+   },
+   {
+    "drug": "trazodone",
+    "pchembl": 7.38,
+    "a": 101,
+    "ror": 5.479610386686067,
+    "ror_lo": 4.484226468586443,
+    "ic025": 2.029849488153432
+   },
+   {
+    "drug": "domperidone",
+    "pchembl": 6.81,
+    "a": 49,
+    "ror": 4.283590148204955,
+    "ror_lo": 3.21863141992893,
+    "ic025": 1.5333287879425688
+   },
+   {
+    "drug": "haloperidol",
+    "pchembl": 6.49,
+    "a": 55,
+    "ror": 5.238526371806326,
+    "ror_lo": 3.995158745416135,
+    "ic025": 1.8318050835980586
+   },
+   {
+    "drug": "citalopram",
+    "pchembl": 6.43,
+    "a": 219,
+    "ror": 5.377881785218734,
+    "ror_lo": 4.691082346236827,
+    "ic025": 2.1168739916364148
+   }
+  ]
+ },
+ {
+  "gene": "PTGS1",
+  "protein": "Prostaglandin G/H synthase 1",
+  "uniprot": "P23219",
+  "ensembl": "ENSG00000095303",
+  "function": "Dual cyclooxygenase and peroxidase that plays an important role in the biosynthesis pathway of prostanoids, a class of C20 oxylipins mainly derived from arachidonate ((5Z,8Z,11Z,14Z)-eicosatetraenoate, AA, C20:4(n-6)), with a particular role in the inflammatory response. The cyclooxygenase activity oxygenates AA to the hydroperoxy endoperoxide prostaglandin G2 (PGG2), and the peroxidase activity reduces PGG2 to the hydroxy endoperoxide prostaglandin H2 (PGH2), the precursor of all 2-series prostaglandins and thromboxanes. This complex transformation is initiated by abstraction of hydrogen at carbon 13 (with S-stereochemistry), followed by insertion of molecular O2 to form the endoperoxide br",
+  "hpa": {
+   "RNA tissue specificity": "Tissue enhanced",
+   "RNA tissue distribution": "Detected in many",
+   "RNA tissue specific nTPM": {
+    "intestine": "102.0",
+    "skin 1": "144.0",
+    "urinary bladder": "227.5"
+   },
+   "RNA brain regional specificity": "Low region specificity",
+   "Subcellular location": [
+    "Golgi apparatus",
+    "Vesicles"
+   ]
+  },
+  "alphafold": "https://alphafold.ebi.ac.uk/entry/P23219",
+  "event": "GASTRIC ULCER",
+  "stats": {
+   "active_with_signal": "6",
+   "n_active": "8",
+   "inactive_with_signal": "12",
+   "n_inactive": "156",
+   "odds_ratio": 36.0,
+   "p": 1.843659557133301e-05,
+   "q": 0.0032981146205326483
+  },
+  "drugs": [
+   {
+    "drug": "indomethacin",
+    "pchembl": 9.85,
+    "a": 5,
+    "ror": 14.601138650849318,
+    "ror_lo": 6.037769287009395,
+    "ic025": 1.136450097697711
+   },
+   {
+    "drug": "diclofenac",
+    "pchembl": 8.52,
+    "a": 72,
+    "ror": 13.439673477663435,
+    "ror_lo": 10.571717541073928,
+    "ic025": 3.1444260334600926
+   },
+   {
+    "drug": "celecoxib",
+    "pchembl": 7.89,
+    "a": 19,
+    "ror": 7.7489024559382065,
+    "ror_lo": 4.917066474021389,
+    "ic025": 1.9291812177390248
+   },
+   {
+    "drug": "naproxen",
+    "pchembl": 7.18,
+    "a": 43,
+    "ror": 13.312768032927067,
+    "ror_lo": 9.800255543535357,
+    "ic025": 2.9793617711528837
+   },
+   {
+    "drug": "ibuprofen",
+    "pchembl": 6.67,
+    "a": 90,
+    "ror": 17.769434160586663,
+    "ror_lo": 14.305117774819939,
+    "ic025": 3.5529065664412816
+   },
+   {
+    "drug": "levodopa",
+    "pchembl": 6.17,
+    "a": 15,
+    "ror": 1.918068357217162,
+    "ror_lo": 1.1518674061503194,
+    "ic025": 0.01673079590958062
+   }
+  ]
+ },
+ {
+  "gene": "HTR2A",
+  "protein": "5-hydroxytryptamine receptor 2A",
+  "uniprot": "P28223",
+  "ensembl": "ENSG00000102468",
+  "function": "G protein-coupled receptor for 5-hydroxytryptamine (serotonin) (PubMed:1330647, PubMed:18703043, PubMed:19057895, PubMed:21645528, PubMed:22300836, PubMed:35084960, PubMed:38552625). Also functions as a receptor for various drugs and psychoactive substances, including mescaline, psilocybin, 1-(2,5-dimethoxy-4-iodophenyl)-2-aminopropane (DOI) and lysergic acid diethylamide (LSD) (PubMed:28129538, PubMed:35084960). Ligand binding causes a conformation change that triggers signaling via guanine nucleotide-binding proteins (G proteins) and modulates the activity of downstream effectors (PubMed:28129538, PubMed:35084960). HTR2A is coupled to G(q)/G(11) G alpha proteins and activates phospholipase",
+  "hpa": {
+   "RNA tissue specificity": "Tissue enhanced",
+   "RNA tissue distribution": "Detected in some",
+   "RNA tissue specific nTPM": {
+    "blood vessel": "5.4",
+    "brain": "18.2"
+   },
+   "RNA brain regional specificity": "Low region specificity",
+   "Subcellular location": null
+  },
+  "alphafold": "https://alphafold.ebi.ac.uk/entry/P28223",
+  "event": "PRIAPISM",
+  "stats": {
+   "active_with_signal": "14",
+   "n_active": "32",
+   "inactive_with_signal": "8",
+   "n_inactive": "132",
+   "odds_ratio": 12.055555555555555,
+   "p": 8.653127072427002e-07,
+   "q": 0.0008065779431757034
+  },
+  "drugs": [
+   {
+    "drug": "risperidone",
+    "pchembl": 10.0,
+    "a": 10,
+    "ror": 21.51031583449642,
+    "ror_lo": 11.336401980331399,
+    "ic025": 2.3224058358048834
+   },
+   {
+    "drug": "olanzapine",
+    "pchembl": 9.38,
+    "a": 14,
+    "ror": 27.737959179440377,
+    "ror_lo": 16.023868342565162,
+    "ic025": 2.8819868623886067
+   },
+   {
+    "drug": "aripiprazole",
+    "pchembl": 9.1,
+    "a": 15,
+    "ror": 32.10920761882357,
+    "ror_lo": 18.861712967670158,
+    "ic025": 3.062133891638915
+   },
+   {
+    "drug": "paliperidone",
+    "pchembl": 9.08,
+    "a": 14,
+    "ror": 50.9480761549727,
+    "ror_lo": 29.415588328019165,
+    "ic025": 3.2740505883044437
+   },
+   {
+    "drug": "chlorpromazine",
+    "pchembl": 8.96,
+    "a": 7,
+    "ror": 224.08433030587744,
+    "ror_lo": 104.21993505407127,
+    "ic025": 2.5112968539079543
+   },
+   {
+    "drug": "clozapine",
+    "pchembl": 8.92,
+    "a": 15,
+    "ror": 22.06258310689715,
+    "ror_lo": 12.96309169498017,
+    "ic025": 2.7643939206018318
+   },
+   {
+    "drug": "trazodone",
+    "pchembl": 8.25,
+    "a": 7,
+    "ror": 32.13700083942919,
+    "ror_lo": 15.051462222217499,
+    "ic025": 2.062418048167559
+   },
+   {
+    "drug": "mirtazapine",
+    "pchembl": 8.09,
+    "a": 7,
+    "ror": 24.170227836679448,
+    "ror_lo": 11.323498442355332,
+    "ic025": 1.9213531268724442
+   },
+   {
+    "drug": "haloperidol",
+    "pchembl": 7.68,
+    "a": 16,
+    "ror": 139.01097704799056,
+    "ror_lo": 82.70892757634101,
+    "ic025": 3.870356764203078
+   },
+   {
+    "drug": "quetiapine",
+    "pchembl": 7.51,
+    "a": 36,
+    "ror": 57.03378933991179,
+    "ror_lo": 39.352422433359216,
+    "ic025": 4.243624091077747
+   },
+   {
+    "drug": "hydroxyzine",
+    "pchembl": 7.3,
+    "a": 4,
+    "ror": 24.40730974818969,
+    "ror_lo": 9.037083192162871,
+    "ic025": 0.9862847574701097
+   },
+   {
+    "drug": "fluoxetine",
+    "pchembl": 7.26,
+    "a": 5,
+    "ror": 17.23774538509356,
+    "ror_lo": 7.0706378640602505,
+    "ic025": 1.2205450073057926
+   },
+   {
+    "drug": "venlafaxine",
+    "pchembl": 6.28,
+    "a": 6,
+    "ror": 13.567482920770118,
+    "ror_lo": 5.999774732893436,
+    "ic025": 1.346490842173183
+   },
+   {
+    "drug": "sertraline",
+    "pchembl": 6.11,
+    "a": 4,
+    "ror": 6.8901525571243685,
+    "ror_lo": 2.55338441666393,
+    "ic025": 0.27593370881587775
+   }
+  ]
+ }
+]

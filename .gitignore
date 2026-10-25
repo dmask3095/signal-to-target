@@ -1,0 +1,5 @@
+data/faers/*.zip
+data/raw.json
+data/*.pkl
+__pycache__/
+.venv/

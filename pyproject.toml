@@ -1,0 +1,6 @@
+[project]
+name = "signal-to-target"
+version = "0.1.0"
+description = "Link FAERS safety signals to protein-target mechanisms"
+requires-python = ">=3.11"
+dependencies = ["pandas>=2.2", "numpy", "requests", "scipy", "statsmodels", "matplotlib"]
